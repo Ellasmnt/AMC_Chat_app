@@ -5,7 +5,7 @@ import 'package:flutter_gemini/flutter_gemini.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Gemini.init(apiKey:'AIzaSyBBPVR6f9DOl7ZIHJejyVJ_9yABRp214is');
+  await Gemini.init(apiKey:'');
   runApp(ChatApp());
 }
 
